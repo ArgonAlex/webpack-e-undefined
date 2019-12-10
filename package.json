@@ -1,0 +1,15 @@
+{
+  "name": "webpack-e-undefined",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ArgonAlex/webpack-e-undefined.git",
+  "author": "Alex Walter <alex.walter@zazzle.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "rm -rf dist && webpack --mode production && node test"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
